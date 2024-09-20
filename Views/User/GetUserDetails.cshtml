@@ -1,0 +1,112 @@
+﻿@using LibraryManagementSystem.Entity
+@using LibraryManagementSystem.Common
+
+@model IEnumerable<UserEntity>
+
+@{
+    ViewData["Title"] = "GetUserDetails";
+    var i = 1;
+}
+
+
+<style>
+    #navbarNav {
+        background: linear-gradient(45deg, #06233b, #076b6f);
+        color: white;
+    }
+</style>
+@if (Model != null && Model.Any())
+{
+    <div class="wrapper">
+        <div class="row">
+            <main class="col-md-12">
+                <div id="manageUsers" class="dashboard-section collapse show">
+                    <div class="card">
+                        <div class="card-header" id="navbarNav">List of All Users Who Received Books from the Library</div>
+                        <div class="card-body">
+                           @*  <a href="/Book/AddBooks" class="btn btn-primary mb-3">Add New Book</a> *@
+                            <div class="table-responsive">
+                                <table id="booksTable" class="table table-striped table-bordered">
+                                    <thead class="bg-info">
+                                        <tr>
+                                            <th>Sr. Number</th>
+                                            @* <th>Book ID</th> *@
+                                            <th>User Name</th>
+                                            <th>Book Title</th>
+                                            <th>Email</th>
+                                            <th>Received Date</th>
+                                            <th>Due Date</th>
+                                           
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in Model)
+                                        {
+                                            <tr>
+                                                <td>@i</td>
+                                                @*  <td>@item.BookId</td> *@
+                                                <td>@item.UserName</td>
+                                                <td>@item.BookTitle</td>
+                                                <td>@item.Email</td>
+                                                <td>@item.LoanDate.ToString("yyyy-MM-dd")</td>
+                                                <td>@item.DueDate.ToString("yyyy-MM-dd")</td>
+
+                                                
+                                               @*  <td>
+                                                    <a href="@Url.Action("GetUserById", "Book", new { BookId = item.UserId })" class="btn btn-primary btn-sm">
+                                                        <i class="fas fa-edit"></i>
+                                                    </a>
+
+                                                    <button type="button" class="btn btn-danger btn-sm" onclick="confirmDelete('@Url.Action("DeleteBookById", "Book", new { BookId = item.UserId })')">
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </button>
+                                                </td> *@
+
+                                            </tr>
+                                            i++;
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+}
+else
+{
+    <div class="container mt-4">
+        <div class="alert alert-warning">
+            No Books are available.
+        </div>
+    </div>
+}
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#booksTable').DataTable({
+            "paging": true,
+            "searching": true,
+            "ordering": true,
+            "info": true,
+            "pageLength": 10
+        });
+
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+    });
+
+    function confirmDelete(url) {
+        if (confirm('Are you sure you want to delete this book?')) {
+            window.location.href = url;
+        }
+    }
+</script>
+
+

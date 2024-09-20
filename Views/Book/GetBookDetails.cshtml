@@ -1,0 +1,120 @@
+﻿@using LibraryManagementSystem.Entity
+@using LibraryManagementSystem.Common
+
+@model IEnumerable<BookEntity>
+
+@{
+    ViewData["Title"] = "GetBookDetails";
+    var i = 1;
+}
+<style>
+    #navbarNav {
+        background: linear-gradient(45deg, #06233b, #076b6f);
+        color: white;
+    }
+</style>
+@if (Model != null && Model.Any())
+{
+    <div class="wrapper">
+        <div class="row">
+            <main class="col-md-12">
+                <div id="manageBooks" class="dashboard-section collapse show">
+                    <div class="card">
+                        <div class="card-header" id="navbarNav">Manage Books</div>
+                        <div class="card-body">
+                            <a href="/Book/AddBooks" class="btn btn-primary mb-3">Add New Book</a>
+                            <div class="table-responsive">
+                                <table id="booksTable" class="table table-striped table-bordered">
+                                    <thead class="bg-info">
+                                        <tr>
+                                            <th>Sr. Number</th>
+                                            <th>Title</th>
+                                            <th>Author Name</th>
+                                            <th>Category</th>
+                                           @*  <th>Status</th> *@
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in Model)
+                                        {
+                                            <tr>
+                                                <td>@i</td>
+                                                <td>@item.Title</td>
+                                                <td>@item.AuthorName</td>
+                                                <td>@item.CategoryName</td>
+                                                @* <td class="d-flex align-items-center">
+                                                    @if (item.IsAvailable)
+                                                    {
+                                                        <a href="#">
+                                                            <span class="d-flex align-items-center me-2">
+                                                                <i class="bi bi-check-circle text-success fs-5" data-bs-toggle="tooltip" data-bs-placement="top" title="Book is Currently Available - Click Here to Mark as Unavailable"></i>
+                                                                <span class="text-success ms-2">Available</span>
+                                                            </span>
+                                                        </a>
+                                                    }
+                                                    else
+                                                    {
+                                                        <a href="#">
+                                                            <span class="d-flex align-items-center me-2">
+                                                                <i class="bi bi-x-circle text-danger fs-5" data-bs-toggle="tooltip" data-bs-placement="top" title="Book is Currently Unavailable - Click Here to Mark as Available"></i>
+                                                                <span class="text-danger ms-2">Not Available</span>
+                                                            </span>
+                                                        </a>
+                                                    }
+                                                </td> *@
+                                                <td>
+                                                    <a href="@Url.Action("GetBookById", "Book", new { BookId = item.BookId })" class="btn btn-primary btn-sm">
+                                                        <i class="fas fa-edit"></i>
+                                                    </a>
+
+                                                    <button type="button" class="btn btn-danger btn-sm" onclick="confirmDelete('@Url.Action("DeleteBookById", "Book", new { BookId = item.BookId })')">
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </button>
+                                                </td>
+
+                                            </tr>
+                                            i++;
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+}
+else
+{
+    <div class="container mt-4">
+        <div class="alert alert-warning">
+            No Books are available.
+        </div>
+    </div>
+}
+
+<!-- Include DataTables CSS and JS -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#booksTable').DataTable({
+            "paging": true,
+            "searching": true,
+            "ordering": true,
+            "info": true,
+            "pageLength": 10
+        });
+
+      
+    });
+
+    function confirmDelete(url) {
+        if (confirm('Are you sure you want to delete this book?')) {
+            window.location.href = url;
+        }
+    }
+</script>

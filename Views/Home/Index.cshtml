@@ -1,0 +1,102 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Library Management System - Admin</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome for Icons -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(45deg, #06233b, #076b6f);
+           
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        .lead {
+            color: #666;
+        }
+
+        .card {
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            width: 45%;
+            vertical-align: top;
+        }
+
+            .card h3 {
+                margin-top: 0;
+                color: #007bff;
+            }
+
+            .card p {
+                color: #555;
+            }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+            .btn:hover {
+                background-color: #0056b3;
+            }
+
+        .icon {
+            font-size: 40px;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to Library Management System</h1>
+        <p class="lead" style="color: white;">Admin Panel</p>
+        <hr />
+
+        <div class="card">
+            <i class="fas fa-book icon"></i>
+            <h3>Manage Books</h3>
+            <p>Add, update, or delete books from the library collection.</p>
+            <a href="/Book/GetBookDetails" class="btn">Go to Books</a>
+        </div>
+
+        <div class="card">
+            <i class="fas fa-users icon"></i>
+            <h3>Manage Users</h3>
+            <p>View library users.</p>
+            <a href="/User/GetUserDetails" class="btn">Go to Users</a>
+        </div>
+    </div>
+
+</body>
+</html>

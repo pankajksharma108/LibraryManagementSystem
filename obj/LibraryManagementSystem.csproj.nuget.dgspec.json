@@ -1,0 +1,548 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj": {}
+  },
+  "projects": {
+    "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Common\\LibraryManagementSystem.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Common\\LibraryManagementSystem.Common.csproj",
+        "projectName": "LibraryManagementSystem.Common",
+        "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Common\\LibraryManagementSystem.Common.csproj",
+        "packagesPath": "C:\\Users\\panka\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\panka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Entity\\LibraryManagementSystem.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Entity\\LibraryManagementSystem.Entity.csproj",
+        "projectName": "LibraryManagementSystem.Entity",
+        "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Entity\\LibraryManagementSystem.Entity.csproj",
+        "packagesPath": "C:\\Users\\panka\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\panka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Repository.Abstraction\\LibraryManagementSystem.Repository.Abstraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Repository.Abstraction\\LibraryManagementSystem.Repository.Abstraction.csproj",
+        "projectName": "LibraryManagementSystem.Repository.Abstraction",
+        "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Repository.Abstraction\\LibraryManagementSystem.Repository.Abstraction.csproj",
+        "packagesPath": "C:\\Users\\panka\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Repository.Abstraction\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\panka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Common\\LibraryManagementSystem.Common.csproj": {
+                "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Common\\LibraryManagementSystem.Common.csproj"
+              },
+              "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Entity\\LibraryManagementSystem.Entity.csproj": {
+                "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Entity\\LibraryManagementSystem.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Repository\\LibraryManagementSystem.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Repository\\LibraryManagementSystem.Repository.csproj",
+        "projectName": "LibraryManagementSystem.Repository",
+        "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Repository\\LibraryManagementSystem.Repository.csproj",
+        "packagesPath": "C:\\Users\\panka\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\panka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Common\\LibraryManagementSystem.Common.csproj": {
+                "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Common\\LibraryManagementSystem.Common.csproj"
+              },
+              "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Entity\\LibraryManagementSystem.Entity.csproj": {
+                "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Entity\\LibraryManagementSystem.Entity.csproj"
+              },
+              "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Repository.Abstraction\\LibraryManagementSystem.Repository.Abstraction.csproj": {
+                "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Repository.Abstraction\\LibraryManagementSystem.Repository.Abstraction.csproj"
+              },
+              "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Service.Abstraction\\LibraryManagementSystem.Service.Abstraction.csproj": {
+                "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Service.Abstraction\\LibraryManagementSystem.Service.Abstraction.csproj"
+              },
+              "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Service\\LibraryManagementSystem.Service.csproj": {
+                "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Service\\LibraryManagementSystem.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Service.Abstraction\\LibraryManagementSystem.Service.Abstraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Service.Abstraction\\LibraryManagementSystem.Service.Abstraction.csproj",
+        "projectName": "LibraryManagementSystem.Service.Abstraction",
+        "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Service.Abstraction\\LibraryManagementSystem.Service.Abstraction.csproj",
+        "packagesPath": "C:\\Users\\panka\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Service.Abstraction\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\panka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Common\\LibraryManagementSystem.Common.csproj": {
+                "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Common\\LibraryManagementSystem.Common.csproj"
+              },
+              "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Entity\\LibraryManagementSystem.Entity.csproj": {
+                "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Entity\\LibraryManagementSystem.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Service\\LibraryManagementSystem.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Service\\LibraryManagementSystem.Service.csproj",
+        "projectName": "LibraryManagementSystem.Service",
+        "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Service\\LibraryManagementSystem.Service.csproj",
+        "packagesPath": "C:\\Users\\panka\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\panka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Common\\LibraryManagementSystem.Common.csproj": {
+                "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Common\\LibraryManagementSystem.Common.csproj"
+              },
+              "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Entity\\LibraryManagementSystem.Entity.csproj": {
+                "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Entity\\LibraryManagementSystem.Entity.csproj"
+              },
+              "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Repository.Abstraction\\LibraryManagementSystem.Repository.Abstraction.csproj": {
+                "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Repository.Abstraction\\LibraryManagementSystem.Repository.Abstraction.csproj"
+              },
+              "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Service.Abstraction\\LibraryManagementSystem.Service.Abstraction.csproj": {
+                "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Service.Abstraction\\LibraryManagementSystem.Service.Abstraction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+        "projectName": "LibraryManagementSystem",
+        "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+        "packagesPath": "C:\\Users\\panka\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\panka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Common\\LibraryManagementSystem.Common.csproj": {
+                "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Common\\LibraryManagementSystem.Common.csproj"
+              },
+              "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Entity\\LibraryManagementSystem.Entity.csproj": {
+                "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Entity\\LibraryManagementSystem.Entity.csproj"
+              },
+              "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Repository.Abstraction\\LibraryManagementSystem.Repository.Abstraction.csproj": {
+                "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Repository.Abstraction\\LibraryManagementSystem.Repository.Abstraction.csproj"
+              },
+              "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Repository\\LibraryManagementSystem.Repository.csproj": {
+                "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Repository\\LibraryManagementSystem.Repository.csproj"
+              },
+              "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Service.Abstraction\\LibraryManagementSystem.Service.Abstraction.csproj": {
+                "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Service.Abstraction\\LibraryManagementSystem.Service.Abstraction.csproj"
+              },
+              "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Service\\LibraryManagementSystem.Service.csproj": {
+                "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Service\\LibraryManagementSystem.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Azure.Core": {
+              "target": "Package",
+              "version": "[1.43.0, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
