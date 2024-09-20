@@ -1,5 +1,3 @@
-# LibraryManagementSystem
-Created project Implementing CRUD Operation
 # Library Management System
 
 ## Overview
