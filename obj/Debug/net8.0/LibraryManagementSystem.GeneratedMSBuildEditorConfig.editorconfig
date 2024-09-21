@@ -17,55 +17,55 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LibraryManagementSystem
 build_property.RootNamespace = LibraryManagementSystem
-build_property.ProjectDir = D:\ASP.NET CORE Tutorial And Projects\LibraryManagementSystem\LibraryManagementSystem\
+build_property.ProjectDir = C:\Users\panka\source\repos\LibraryManagementSystem\LibraryManagementSystem\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\ASP.NET CORE Tutorial And Projects\LibraryManagementSystem\LibraryManagementSystem
+build_property.MSBuildProjectDirectory = C:\Users\panka\source\repos\LibraryManagementSystem\LibraryManagementSystem
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/ASP.NET CORE Tutorial And Projects/LibraryManagementSystem/LibraryManagementSystem/Views/Book/AddBooks.cshtml]
+[C:/Users/panka/source/repos/LibraryManagementSystem/LibraryManagementSystem/Views/Book/AddBooks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xBZGRCb29rcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET CORE Tutorial And Projects/LibraryManagementSystem/LibraryManagementSystem/Views/Book/GetBookById.cshtml]
+[C:/Users/panka/source/repos/LibraryManagementSystem/LibraryManagementSystem/Views/Book/GetBookById.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xHZXRCb29rQnlJZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET CORE Tutorial And Projects/LibraryManagementSystem/LibraryManagementSystem/Views/Book/GetBookDetails.cshtml]
+[C:/Users/panka/source/repos/LibraryManagementSystem/LibraryManagementSystem/Views/Book/GetBookDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xHZXRCb29rRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET CORE Tutorial And Projects/LibraryManagementSystem/LibraryManagementSystem/Views/Home/Index.cshtml]
+[C:/Users/panka/source/repos/LibraryManagementSystem/LibraryManagementSystem/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET CORE Tutorial And Projects/LibraryManagementSystem/LibraryManagementSystem/Views/Home/Privacy.cshtml]
+[C:/Users/panka/source/repos/LibraryManagementSystem/LibraryManagementSystem/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET CORE Tutorial And Projects/LibraryManagementSystem/LibraryManagementSystem/Views/Shared/Error.cshtml]
+[C:/Users/panka/source/repos/LibraryManagementSystem/LibraryManagementSystem/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET CORE Tutorial And Projects/LibraryManagementSystem/LibraryManagementSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/panka/source/repos/LibraryManagementSystem/LibraryManagementSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET CORE Tutorial And Projects/LibraryManagementSystem/LibraryManagementSystem/Views/User/GetUserDetails.cshtml]
+[C:/Users/panka/source/repos/LibraryManagementSystem/LibraryManagementSystem/Views/User/GetUserDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxHZXRVc2VyRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET CORE Tutorial And Projects/LibraryManagementSystem/LibraryManagementSystem/Views/_ViewImports.cshtml]
+[C:/Users/panka/source/repos/LibraryManagementSystem/LibraryManagementSystem/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET CORE Tutorial And Projects/LibraryManagementSystem/LibraryManagementSystem/Views/_ViewStart.cshtml]
+[C:/Users/panka/source/repos/LibraryManagementSystem/LibraryManagementSystem/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET CORE Tutorial And Projects/LibraryManagementSystem/LibraryManagementSystem/Views/Shared/_Layout.cshtml]
+[C:/Users/panka/source/repos/LibraryManagementSystem/LibraryManagementSystem/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-spbznog2vl

@@ -246,3 +246,4 @@ D:\ASP.NET CORE Tutorial And Projects\LibraryManagementSystem\LibraryManagementS
 D:\ASP.NET CORE Tutorial And Projects\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net8.0\LibraryManagementSystem.pdb
 D:\ASP.NET CORE Tutorial And Projects\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net8.0\LibraryManagementSystem.genruntimeconfig.cache
 D:\ASP.NET CORE Tutorial And Projects\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net8.0\ref\LibraryManagementSystem.dll
+D:\ASP.NET CORE Tutorial And Projects\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net8.0\LibraryManagementSystem.sourcelink.json

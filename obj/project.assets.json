@@ -9393,11 +9393,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+      "projectUniqueName": "C:\\Users\\panka\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
       "projectName": "LibraryManagementSystem",
-      "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+      "projectPath": "C:\\Users\\panka\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
       "packagesPath": "C:\\Users\\panka\\.nuget\\packages\\",
-      "outputPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem\\obj\\",
+      "outputPath": "C:\\Users\\panka\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\panka\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9415,23 +9415,23 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Common\\LibraryManagementSystem.Common.csproj": {
-              "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Common\\LibraryManagementSystem.Common.csproj"
+            "C:\\Users\\panka\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem.Common\\LibraryManagementSystem.Common.csproj": {
+              "projectPath": "C:\\Users\\panka\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem.Common\\LibraryManagementSystem.Common.csproj"
             },
-            "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Entity\\LibraryManagementSystem.Entity.csproj": {
-              "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Entity\\LibraryManagementSystem.Entity.csproj"
+            "C:\\Users\\panka\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem.Entity\\LibraryManagementSystem.Entity.csproj": {
+              "projectPath": "C:\\Users\\panka\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem.Entity\\LibraryManagementSystem.Entity.csproj"
             },
-            "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Repository.Abstraction\\LibraryManagementSystem.Repository.Abstraction.csproj": {
-              "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Repository.Abstraction\\LibraryManagementSystem.Repository.Abstraction.csproj"
+            "C:\\Users\\panka\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem.Repository.Abstraction\\LibraryManagementSystem.Repository.Abstraction.csproj": {
+              "projectPath": "C:\\Users\\panka\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem.Repository.Abstraction\\LibraryManagementSystem.Repository.Abstraction.csproj"
             },
-            "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Repository\\LibraryManagementSystem.Repository.csproj": {
-              "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Repository\\LibraryManagementSystem.Repository.csproj"
+            "C:\\Users\\panka\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem.Repository\\LibraryManagementSystem.Repository.csproj": {
+              "projectPath": "C:\\Users\\panka\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem.Repository\\LibraryManagementSystem.Repository.csproj"
             },
-            "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Service.Abstraction\\LibraryManagementSystem.Service.Abstraction.csproj": {
-              "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Service.Abstraction\\LibraryManagementSystem.Service.Abstraction.csproj"
+            "C:\\Users\\panka\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem.Service.Abstraction\\LibraryManagementSystem.Service.Abstraction.csproj": {
+              "projectPath": "C:\\Users\\panka\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem.Service.Abstraction\\LibraryManagementSystem.Service.Abstraction.csproj"
             },
-            "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Service\\LibraryManagementSystem.Service.csproj": {
-              "projectPath": "D:\\ASP.NET CORE Tutorial And Projects\\LibraryManagementSystem\\LibraryManagementSystem.Service\\LibraryManagementSystem.Service.csproj"
+            "C:\\Users\\panka\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem.Service\\LibraryManagementSystem.Service.csproj": {
+              "projectPath": "C:\\Users\\panka\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem.Service\\LibraryManagementSystem.Service.csproj"
             }
           }
         }
